@@ -18,8 +18,8 @@ exports.TRUE_ERC20 = {
     [fusion_sdk_1.NetworkEnum.LINEA]: TrueERC20,
     [fusion_sdk_1.NetworkEnum.SONIC]: TrueERC20,
     [fusion_sdk_1.NetworkEnum.UNICHAIN]: TrueERC20,
-    [fusion_sdk_1.NetworkEnum.ETHEREUMSEPOLIA]: new fusion_sdk_1.Address(''),
-    [fusion_sdk_1.NetworkEnum.BASESEPOLIA]: new fusion_sdk_1.Address('')
+    [fusion_sdk_1.NetworkEnum.ETHEREUMSEPOLIA]: new fusion_sdk_1.Address('0x6dFe5DA3C989aB142CfB16a8FfA2B0e640b1d821'),
+    [fusion_sdk_1.NetworkEnum.BASESEPOLIA]: new fusion_sdk_1.Address('0x8bD9f7C82eBF9D9C830a76bAcb0E99A52163B304')
 };
 const ESCROW_FACTORY_ADDRESS = new fusion_sdk_1.Address('0xa7bcb4eac8964306f9e3764f67db6a7af6ddf99a');
 const ESCROW_ZK_FACTORY_ADDRESS = new fusion_sdk_1.Address('0x584aeab186d81dbb52a8a14820c573480c3d4773');
