@@ -58,7 +58,7 @@ exports.ESCROW_DST_IMPLEMENTATION = {
     [fusion_sdk_1.NetworkEnum.LINEA]: ESCROW_DST_IMPLEMENTATION_ADDRESS,
     [fusion_sdk_1.NetworkEnum.SONIC]: ESCROW_DST_IMPLEMENTATION_ADDRESS,
     [fusion_sdk_1.NetworkEnum.UNICHAIN]: ESCROW_DST_IMPLEMENTATION_ADDRESS,
-    [fusion_sdk_1.NetworkEnum.ETHEREUMSEPOLIA]: new fusion_sdk_1.Address('0x7490329e69ab8e298a32dc59493034e4d02a5ccf '),
+    [fusion_sdk_1.NetworkEnum.ETHEREUMSEPOLIA]: new fusion_sdk_1.Address('0x7490329e69ab8e298a32dc59493034e4d02a5ccf'),
     [fusion_sdk_1.NetworkEnum.BASESEPOLIA]: new fusion_sdk_1.Address('0x0418b6e80a602474fbfadc3a2594413fe68496bb')
 };
 exports.ESCROW_FACTORY = {

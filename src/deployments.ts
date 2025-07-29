@@ -77,7 +77,7 @@ export const ESCROW_DST_IMPLEMENTATION = {
     [NetworkEnum.SONIC]: ESCROW_DST_IMPLEMENTATION_ADDRESS,
     [NetworkEnum.UNICHAIN]: ESCROW_DST_IMPLEMENTATION_ADDRESS,
     [NetworkEnum.ETHEREUMSEPOLIA]: new Address(
-        '0x7490329e69ab8e298a32dc59493034e4d02a5ccf '
+        '0x7490329e69ab8e298a32dc59493034e4d02a5ccf'
     ),
     [NetworkEnum.BASESEPOLIA]: new Address(
         '0x0418b6e80a602474fbfadc3a2594413fe68496bb'
