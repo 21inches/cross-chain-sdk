@@ -1,6 +1,4 @@
-import { NetworkEnum } from '@1inch/fusion-sdk'
-import { TupleToUnion } from './type-utils'
-
+import { NetworkEnum } from '@1inch/fusion-sdk';
 export const SupportedChains = [
     NetworkEnum.ETHEREUM,
     NetworkEnum.POLYGON,
@@ -16,14 +14,6 @@ export const SupportedChains = [
     NetworkEnum.UNICHAIN
     // NetworkEnum.ETHEREUMSEPOLIA,
     // NetworkEnum.BASESEPOLIA
-] as const
-
-type UnsupportedChain = Exclude<
-    NetworkEnum,
-    TupleToUnion<typeof SupportedChains>
->
-
-export type SupportedChain = Exclude<NetworkEnum, UnsupportedChain>
-
-export const isSupportedChain = (chain: unknown): chain is SupportedChain =>
-    SupportedChains.includes(chain as number)
+];
+export const isSupportedChain = (chain) => SupportedChains.includes(chain);
+//# sourceMappingURL=chains.js.map
