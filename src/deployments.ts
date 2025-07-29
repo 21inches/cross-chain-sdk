@@ -1,4 +1,4 @@
-import {Address, NetworkEnum} from '@1inch/fusion-sdk'
+import { Address, NetworkEnum } from '@1inch/fusion-sdk'
 
 const TrueERC20 = new Address('0xda0000d4000015a526378bb6fafc650cea5966f8')
 const ZKTrueERC20 = new Address('0xd66097c27eb8dee404bac235737932260edc6f3b')
@@ -16,7 +16,9 @@ export const TRUE_ERC20 = {
     [NetworkEnum.ZKSYNC]: ZKTrueERC20,
     [NetworkEnum.LINEA]: TrueERC20,
     [NetworkEnum.SONIC]: TrueERC20,
-    [NetworkEnum.UNICHAIN]: TrueERC20
+    [NetworkEnum.UNICHAIN]: TrueERC20,
+    [NetworkEnum.ETHEREUMSEPOLIA]: new Address(''),
+    [NetworkEnum.BASESEPOLIA]: new Address('')
 }
 
 const ESCROW_FACTORY_ADDRESS = new Address(
@@ -51,7 +53,13 @@ export const ESCROW_SRC_IMPLEMENTATION = {
     [NetworkEnum.ZKSYNC]: ESCROW_ZK_SRC_IMPLEMENTATION_ADDRESS,
     [NetworkEnum.LINEA]: ESCROW_SRC_IMPLEMENTATION_ADDRESS,
     [NetworkEnum.SONIC]: ESCROW_SRC_IMPLEMENTATION_ADDRESS,
-    [NetworkEnum.UNICHAIN]: ESCROW_SRC_IMPLEMENTATION_ADDRESS
+    [NetworkEnum.UNICHAIN]: ESCROW_SRC_IMPLEMENTATION_ADDRESS,
+    [NetworkEnum.ETHEREUMSEPOLIA]: new Address(
+        '0xa17ddb01f03a42e0070a0e25099cf3d27b705fff'
+    ),
+    [NetworkEnum.BASESEPOLIA]: new Address(
+        '0xe55061a78bf30e7f38410b90a6a167d5621cc068'
+    )
 }
 
 export const ESCROW_DST_IMPLEMENTATION = {
@@ -67,7 +75,13 @@ export const ESCROW_DST_IMPLEMENTATION = {
     [NetworkEnum.ZKSYNC]: ESCROW_ZK_DST_IMPLEMENTATION_ADDRESS,
     [NetworkEnum.LINEA]: ESCROW_DST_IMPLEMENTATION_ADDRESS,
     [NetworkEnum.SONIC]: ESCROW_DST_IMPLEMENTATION_ADDRESS,
-    [NetworkEnum.UNICHAIN]: ESCROW_DST_IMPLEMENTATION_ADDRESS
+    [NetworkEnum.UNICHAIN]: ESCROW_DST_IMPLEMENTATION_ADDRESS,
+    [NetworkEnum.ETHEREUMSEPOLIA]: new Address(
+        '0x7490329e69ab8e298a32dc59493034e4d02a5ccf '
+    ),
+    [NetworkEnum.BASESEPOLIA]: new Address(
+        '0x0418b6e80a602474fbfadc3a2594413fe68496bb'
+    )
 }
 
 export const ESCROW_FACTORY = {
@@ -83,5 +97,7 @@ export const ESCROW_FACTORY = {
     [NetworkEnum.ZKSYNC]: ESCROW_ZK_FACTORY_ADDRESS,
     [NetworkEnum.LINEA]: ESCROW_FACTORY_ADDRESS,
     [NetworkEnum.SONIC]: ESCROW_FACTORY_ADDRESS,
-    [NetworkEnum.UNICHAIN]: ESCROW_FACTORY_ADDRESS
+    [NetworkEnum.UNICHAIN]: ESCROW_FACTORY_ADDRESS,
+    [NetworkEnum.ETHEREUMSEPOLIA]: new Address('0x61a32a9263c6ff568c66799a94f8fe09c1db7a66'),
+    [NetworkEnum.BASESEPOLIA]: new Address('0x178ddaca4499a89e40826ec247baf608051edf9e')
 }

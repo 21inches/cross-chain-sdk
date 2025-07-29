@@ -11,9 +11,9 @@ export const SupportedChains = [
     NetworkEnum.ZKSYNC,
     NetworkEnum.LINEA,
     NetworkEnum.SONIC,
-    NetworkEnum.UNICHAIN
-    // NetworkEnum.ETHEREUMSEPOLIA,
-    // NetworkEnum.BASESEPOLIA
+    NetworkEnum.UNICHAIN,
+    NetworkEnum.ETHEREUMSEPOLIA,
+    NetworkEnum.BASESEPOLIA
 ];
 export const isSupportedChain = (chain) => SupportedChains.includes(chain);
 //# sourceMappingURL=chains.js.map

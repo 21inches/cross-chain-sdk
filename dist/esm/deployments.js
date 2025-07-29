@@ -14,7 +14,9 @@ export const TRUE_ERC20 = {
     [NetworkEnum.ZKSYNC]: ZKTrueERC20,
     [NetworkEnum.LINEA]: TrueERC20,
     [NetworkEnum.SONIC]: TrueERC20,
-    [NetworkEnum.UNICHAIN]: TrueERC20
+    [NetworkEnum.UNICHAIN]: TrueERC20,
+    [NetworkEnum.ETHEREUMSEPOLIA]: new Address(''),
+    [NetworkEnum.BASESEPOLIA]: new Address('')
 };
 const ESCROW_FACTORY_ADDRESS = new Address('0xa7bcb4eac8964306f9e3764f67db6a7af6ddf99a');
 const ESCROW_ZK_FACTORY_ADDRESS = new Address('0x584aeab186d81dbb52a8a14820c573480c3d4773');
@@ -35,7 +37,9 @@ export const ESCROW_SRC_IMPLEMENTATION = {
     [NetworkEnum.ZKSYNC]: ESCROW_ZK_SRC_IMPLEMENTATION_ADDRESS,
     [NetworkEnum.LINEA]: ESCROW_SRC_IMPLEMENTATION_ADDRESS,
     [NetworkEnum.SONIC]: ESCROW_SRC_IMPLEMENTATION_ADDRESS,
-    [NetworkEnum.UNICHAIN]: ESCROW_SRC_IMPLEMENTATION_ADDRESS
+    [NetworkEnum.UNICHAIN]: ESCROW_SRC_IMPLEMENTATION_ADDRESS,
+    [NetworkEnum.ETHEREUMSEPOLIA]: new Address('0xa17ddb01f03a42e0070a0e25099cf3d27b705fff'),
+    [NetworkEnum.BASESEPOLIA]: new Address('0xe55061a78bf30e7f38410b90a6a167d5621cc068')
 };
 export const ESCROW_DST_IMPLEMENTATION = {
     [NetworkEnum.ETHEREUM]: ESCROW_DST_IMPLEMENTATION_ADDRESS,
@@ -50,7 +54,9 @@ export const ESCROW_DST_IMPLEMENTATION = {
     [NetworkEnum.ZKSYNC]: ESCROW_ZK_DST_IMPLEMENTATION_ADDRESS,
     [NetworkEnum.LINEA]: ESCROW_DST_IMPLEMENTATION_ADDRESS,
     [NetworkEnum.SONIC]: ESCROW_DST_IMPLEMENTATION_ADDRESS,
-    [NetworkEnum.UNICHAIN]: ESCROW_DST_IMPLEMENTATION_ADDRESS
+    [NetworkEnum.UNICHAIN]: ESCROW_DST_IMPLEMENTATION_ADDRESS,
+    [NetworkEnum.ETHEREUMSEPOLIA]: new Address('0x7490329e69ab8e298a32dc59493034e4d02a5ccf '),
+    [NetworkEnum.BASESEPOLIA]: new Address('0x0418b6e80a602474fbfadc3a2594413fe68496bb')
 };
 export const ESCROW_FACTORY = {
     [NetworkEnum.ETHEREUM]: ESCROW_FACTORY_ADDRESS,
@@ -65,6 +71,8 @@ export const ESCROW_FACTORY = {
     [NetworkEnum.ZKSYNC]: ESCROW_ZK_FACTORY_ADDRESS,
     [NetworkEnum.LINEA]: ESCROW_FACTORY_ADDRESS,
     [NetworkEnum.SONIC]: ESCROW_FACTORY_ADDRESS,
-    [NetworkEnum.UNICHAIN]: ESCROW_FACTORY_ADDRESS
+    [NetworkEnum.UNICHAIN]: ESCROW_FACTORY_ADDRESS,
+    [NetworkEnum.ETHEREUMSEPOLIA]: new Address('0x61a32a9263c6ff568c66799a94f8fe09c1db7a66'),
+    [NetworkEnum.BASESEPOLIA]: new Address('0x178ddaca4499a89e40826ec247baf608051edf9e')
 };
 //# sourceMappingURL=deployments.js.map

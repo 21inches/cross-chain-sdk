@@ -14,9 +14,9 @@ exports.SupportedChains = [
     fusion_sdk_1.NetworkEnum.ZKSYNC,
     fusion_sdk_1.NetworkEnum.LINEA,
     fusion_sdk_1.NetworkEnum.SONIC,
-    fusion_sdk_1.NetworkEnum.UNICHAIN
-    // NetworkEnum.ETHEREUMSEPOLIA,
-    // NetworkEnum.BASESEPOLIA
+    fusion_sdk_1.NetworkEnum.UNICHAIN,
+    fusion_sdk_1.NetworkEnum.ETHEREUMSEPOLIA,
+    fusion_sdk_1.NetworkEnum.BASESEPOLIA
 ];
 const isSupportedChain = (chain) => exports.SupportedChains.includes(chain);
 exports.isSupportedChain = isSupportedChain;
