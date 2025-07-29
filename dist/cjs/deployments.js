@@ -5,21 +5,21 @@ const fusion_sdk_1 = require("@1inch/fusion-sdk");
 const TrueERC20 = new fusion_sdk_1.Address('0xda0000d4000015a526378bb6fafc650cea5966f8');
 const ZKTrueERC20 = new fusion_sdk_1.Address('0xd66097c27eb8dee404bac235737932260edc6f3b');
 exports.TRUE_ERC20 = {
-    [fusion_sdk_1.NetworkEnum.ETHEREUM]: TrueERC20,
-    [fusion_sdk_1.NetworkEnum.POLYGON]: TrueERC20,
-    [fusion_sdk_1.NetworkEnum.OPTIMISM]: TrueERC20,
-    [fusion_sdk_1.NetworkEnum.BINANCE]: TrueERC20,
-    [fusion_sdk_1.NetworkEnum.AVALANCHE]: TrueERC20,
-    [fusion_sdk_1.NetworkEnum.COINBASE]: TrueERC20,
-    [fusion_sdk_1.NetworkEnum.FANTOM]: TrueERC20,
-    [fusion_sdk_1.NetworkEnum.GNOSIS]: TrueERC20,
-    [fusion_sdk_1.NetworkEnum.ARBITRUM]: TrueERC20,
-    [fusion_sdk_1.NetworkEnum.ZKSYNC]: ZKTrueERC20,
-    [fusion_sdk_1.NetworkEnum.LINEA]: TrueERC20,
-    [fusion_sdk_1.NetworkEnum.SONIC]: TrueERC20,
-    [fusion_sdk_1.NetworkEnum.UNICHAIN]: TrueERC20,
-    [fusion_sdk_1.NetworkEnum.ETHEREUMSEPOLIA]: new fusion_sdk_1.Address('0x6dFe5DA3C989aB142CfB16a8FfA2B0e640b1d821'),
-    [fusion_sdk_1.NetworkEnum.BASESEPOLIA]: new fusion_sdk_1.Address('0x8bD9f7C82eBF9D9C830a76bAcb0E99A52163B304')
+    [1]: TrueERC20, // ETHEREUM
+    [137]: TrueERC20, // POLYGON
+    [10]: TrueERC20, // OPTIMISM
+    [56]: TrueERC20, // BINANCE
+    [43114]: TrueERC20, // AVALANCHE
+    [8453]: TrueERC20, // COINBASE
+    [250]: TrueERC20, // FANTOM
+    [100]: TrueERC20, // GNOSIS
+    [42161]: TrueERC20, // ARBITRUM
+    [324]: ZKTrueERC20, // ZKSYNC
+    [59144]: TrueERC20, // LINEA
+    [146]: TrueERC20, // SONIC
+    [130]: TrueERC20, // UNICHAIN
+    [11155111]: new fusion_sdk_1.Address('0x6dFe5DA3C989aB142CfB16a8FfA2B0e640b1d821'), // ETHEREUMSEPOLIA
+    [84532]: new fusion_sdk_1.Address('0x8bD9f7C82eBF9D9C830a76bAcb0E99A52163B304') // BASESEPOLIA
 };
 const ESCROW_FACTORY_ADDRESS = new fusion_sdk_1.Address('0xa7bcb4eac8964306f9e3764f67db6a7af6ddf99a');
 const ESCROW_ZK_FACTORY_ADDRESS = new fusion_sdk_1.Address('0x584aeab186d81dbb52a8a14820c573480c3d4773');
@@ -28,21 +28,23 @@ const ESCROW_ZK_SRC_IMPLEMENTATION_ADDRESS = new fusion_sdk_1.Address('0xddc60c7
 const ESCROW_DST_IMPLEMENTATION_ADDRESS = new fusion_sdk_1.Address('0x9c3e06659f1c34f930ce97fcbce6e04ae88e535b');
 const ESCROW_ZK_DST_IMPLEMENTATION_ADDRESS = new fusion_sdk_1.Address('0xdc4ccc2fc2475d0ed3fddd563c44f2bf6a3900c9');
 exports.ESCROW_SRC_IMPLEMENTATION = {
-    [fusion_sdk_1.NetworkEnum.ETHEREUM]: ESCROW_SRC_IMPLEMENTATION_ADDRESS,
-    [fusion_sdk_1.NetworkEnum.POLYGON]: ESCROW_SRC_IMPLEMENTATION_ADDRESS,
-    [fusion_sdk_1.NetworkEnum.OPTIMISM]: ESCROW_SRC_IMPLEMENTATION_ADDRESS,
-    [fusion_sdk_1.NetworkEnum.BINANCE]: ESCROW_SRC_IMPLEMENTATION_ADDRESS,
-    [fusion_sdk_1.NetworkEnum.AVALANCHE]: ESCROW_SRC_IMPLEMENTATION_ADDRESS,
-    [fusion_sdk_1.NetworkEnum.COINBASE]: ESCROW_SRC_IMPLEMENTATION_ADDRESS,
-    [fusion_sdk_1.NetworkEnum.FANTOM]: ESCROW_SRC_IMPLEMENTATION_ADDRESS,
-    [fusion_sdk_1.NetworkEnum.GNOSIS]: ESCROW_SRC_IMPLEMENTATION_ADDRESS,
-    [fusion_sdk_1.NetworkEnum.ARBITRUM]: ESCROW_SRC_IMPLEMENTATION_ADDRESS,
-    [fusion_sdk_1.NetworkEnum.ZKSYNC]: ESCROW_ZK_SRC_IMPLEMENTATION_ADDRESS,
-    [fusion_sdk_1.NetworkEnum.LINEA]: ESCROW_SRC_IMPLEMENTATION_ADDRESS,
-    [fusion_sdk_1.NetworkEnum.SONIC]: ESCROW_SRC_IMPLEMENTATION_ADDRESS,
-    [fusion_sdk_1.NetworkEnum.UNICHAIN]: ESCROW_SRC_IMPLEMENTATION_ADDRESS,
-    [fusion_sdk_1.NetworkEnum.ETHEREUMSEPOLIA]: new fusion_sdk_1.Address('0xa17ddb01f03a42e0070a0e25099cf3d27b705fff'),
-    [fusion_sdk_1.NetworkEnum.BASESEPOLIA]: new fusion_sdk_1.Address('0xe55061a78bf30e7f38410b90a6a167d5621cc068')
+    [1]: ESCROW_SRC_IMPLEMENTATION_ADDRESS, // ETHEREUM
+    [137]: ESCROW_SRC_IMPLEMENTATION_ADDRESS, // POLYGON
+    [10]: ESCROW_SRC_IMPLEMENTATION_ADDRESS, // OPTIMISM
+    [56]: ESCROW_SRC_IMPLEMENTATION_ADDRESS, // BINANCE
+    [43114]: ESCROW_SRC_IMPLEMENTATION_ADDRESS, // AVALANCHE
+    [8453]: ESCROW_SRC_IMPLEMENTATION_ADDRESS, // COINBASE
+    [250]: ESCROW_SRC_IMPLEMENTATION_ADDRESS, // FANTOM
+    [100]: ESCROW_SRC_IMPLEMENTATION_ADDRESS, // GNOSIS
+    [42161]: ESCROW_SRC_IMPLEMENTATION_ADDRESS, // ARBITRUM
+    [324]: ESCROW_ZK_SRC_IMPLEMENTATION_ADDRESS, // ZKSYNC
+    [59144]: ESCROW_SRC_IMPLEMENTATION_ADDRESS, // LINEA
+    [146]: ESCROW_SRC_IMPLEMENTATION_ADDRESS, // SONIC
+    [130]: ESCROW_SRC_IMPLEMENTATION_ADDRESS, // UNICHAIN
+    [11155111]: new fusion_sdk_1.Address(// ETHEREUMSEPOLIA
+    '0xa17ddb01f03a42e0070a0e25099cf3d27b705fff'),
+    [84532]: new fusion_sdk_1.Address(// BASESEPOLIA
+    '0xe55061a78bf30e7f38410b90a6a167d5621cc068')
 };
 exports.ESCROW_DST_IMPLEMENTATION = {
     [fusion_sdk_1.NetworkEnum.ETHEREUM]: ESCROW_DST_IMPLEMENTATION_ADDRESS,

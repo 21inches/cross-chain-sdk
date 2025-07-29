@@ -1,4 +1,3 @@
-import { NetworkEnum } from '@1inch/fusion-sdk';
 export const SupportedChains = [
     NetworkEnum.ETHEREUM,
     NetworkEnum.POLYGON,

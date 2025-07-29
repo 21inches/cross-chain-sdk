@@ -1,5 +1,22 @@
-import { NetworkEnum } from '@1inch/fusion-sdk'
 import { TupleToUnion } from './type-utils'
+
+export declare enum NetworkEnum {
+    ETHEREUM = 1,
+    POLYGON = 137,
+    ZKSYNC = 324,
+    BINANCE = 56,
+    ARBITRUM = 42161,
+    AVALANCHE = 43114,
+    OPTIMISM = 10,
+    FANTOM = 250,
+    GNOSIS = 100,
+    COINBASE = 8453,
+    LINEA = 59144,
+    SONIC = 146,
+    UNICHAIN = 130,
+    ETHEREUMSEPOLIA = 11155111,
+    BASESEPOLIA = 84532
+}
 
 export const SupportedChains = [
     NetworkEnum.ETHEREUM,
