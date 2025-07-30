@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.EscrowFactoryFacade = void 0;
-const fusion_sdk_1 = require("@1inch/fusion-sdk");
+const chains_1 = require("../chains");
 const escrow_factory_1 = require("./escrow-factory");
 const escrow_factory_zksync_1 = require("./escrow-factory-zksync");
 class EscrowFactoryFacade {
@@ -13,7 +13,7 @@ class EscrowFactoryFacade {
     }
     static getFactory(chainId, factoryAddress) {
         switch (chainId) {
-            case fusion_sdk_1.NetworkEnum.ZKSYNC:
+            case chains_1.NetworkEnum.ZKSYNC:
                 return new escrow_factory_zksync_1.EscrowFactoryZksync(factoryAddress);
             default:
                 return new escrow_factory_1.EscrowFactory(factoryAddress);

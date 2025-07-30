@@ -1,4 +1,5 @@
-import {HttpProviderConnector, NetworkEnum} from '@1inch/fusion-sdk'
+import {HttpProviderConnector} from '@1inch/fusion-sdk'
+import { NetworkEnum } from '../../chains'
 import {QuoterApi} from './quoter.api'
 import {QuoterRequest} from './quoter.request'
 import {Quote} from './quote'

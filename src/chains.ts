@@ -1,21 +1,26 @@
+import { NetworkEnum as MainnetNetworkEnum } from '@1inch/fusion-sdk'
 import { TupleToUnion } from './type-utils'
 
-export declare enum NetworkEnum {
-    ETHEREUM = 1,
-    POLYGON = 137,
-    ZKSYNC = 324,
-    BINANCE = 56,
-    ARBITRUM = 42161,
-    AVALANCHE = 43114,
-    OPTIMISM = 10,
-    FANTOM = 250,
-    GNOSIS = 100,
-    COINBASE = 8453,
-    LINEA = 59144,
-    SONIC = 146,
-    UNICHAIN = 130,
+export enum NetworkEnum {
+    // Original networks from @1inch/fusion-sdk
+    ETHEREUM = MainnetNetworkEnum.ETHEREUM,
+    POLYGON = MainnetNetworkEnum.POLYGON,
+    ZKSYNC = MainnetNetworkEnum.ZKSYNC,
+    BINANCE = MainnetNetworkEnum.BINANCE,
+    ARBITRUM = MainnetNetworkEnum.ARBITRUM,
+    AVALANCHE = MainnetNetworkEnum.AVALANCHE,
+    OPTIMISM = MainnetNetworkEnum.OPTIMISM,
+    FANTOM = MainnetNetworkEnum.FANTOM,
+    GNOSIS = MainnetNetworkEnum.GNOSIS,
+    COINBASE = MainnetNetworkEnum.COINBASE,
+    LINEA = MainnetNetworkEnum.LINEA,
+    SONIC = MainnetNetworkEnum.SONIC,
+    UNICHAIN = MainnetNetworkEnum.UNICHAIN,
+    
+    // Additional testnet chains
     ETHEREUMSEPOLIA = 11155111,
-    BASESEPOLIA = 84532
+    BASESEPOLIA = 84532,
+    NILETRON = 1001
 }
 
 export const SupportedChains = [
@@ -32,7 +37,8 @@ export const SupportedChains = [
     NetworkEnum.SONIC,
     NetworkEnum.UNICHAIN,
     NetworkEnum.ETHEREUMSEPOLIA,
-    NetworkEnum.BASESEPOLIA
+    NetworkEnum.BASESEPOLIA,
+    NetworkEnum.NILETRON
 ] as const
 
 type UnsupportedChain = Exclude<

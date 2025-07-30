@@ -1,4 +1,5 @@
-import {Address, FusionExtension, NetworkEnum} from '@1inch/fusion-sdk'
+import {Address, FusionExtension} from '@1inch/fusion-sdk'
+import { NetworkEnum } from '../chains'
 import {EscrowExtension} from './escrow-extension'
 import {TimeLocks} from './time-locks'
 import {HashLock} from './hash-lock'

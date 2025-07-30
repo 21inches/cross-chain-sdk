@@ -1,13 +1,13 @@
 import {WebSocket, WebSocketServer} from 'ws'
 import {
     GetAllowMethodsRpcEvent,
-    NetworkEnum,
     OrderFilledEvent,
     OrderFilledPartiallyEvent,
     OrderInvalidEvent,
     PingRpcEvent,
     WebsocketClient
 } from '@1inch/fusion-sdk'
+import { NetworkEnum } from '../chains'
 import {WebSocketApi} from './ws-api'
 import {
     EventType,

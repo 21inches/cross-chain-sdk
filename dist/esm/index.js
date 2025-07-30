@@ -1,10 +1,11 @@
-export { Address, NetworkEnum, MakerTraits, Extension, AuctionDetails, SettlementPostInteractionData, Interaction, AuctionCalculator, 
+export { Address, MakerTraits, Extension, AuctionDetails, SettlementPostInteractionData, Interaction, AuctionCalculator, 
 // Execution
 LimitOrderContract, TakerTraits, AmountMode, 
 // helpers
 calcTakingAmount, calcMakingAmount, now, randBigInt, 
 // connectors
 PrivateKeyProviderConnector, Web3ProviderConnector } from '@1inch/fusion-sdk';
+export { NetworkEnum } from './chains';
 export * from './cross-chain-order';
 export * from './escrow-factory';
 export { SupportedChains } from './chains';

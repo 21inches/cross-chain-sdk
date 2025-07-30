@@ -1,4 +1,5 @@
-import { Address, Extension, FusionExtension, Interaction, SettlementPostInteractionData, AuctionDetails, NetworkEnum } from '@1inch/fusion-sdk';
+import { Address, Extension, FusionExtension, Interaction, SettlementPostInteractionData, AuctionDetails } from '@1inch/fusion-sdk';
+import { NetworkEnum } from '../chains';
 import { TimeLocks } from './time-locks/time-locks';
 import { HashLock } from './hash-lock/hash-lock';
 /**

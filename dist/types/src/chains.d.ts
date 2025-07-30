@@ -14,9 +14,10 @@ export declare enum NetworkEnum {
     SONIC = 146,
     UNICHAIN = 130,
     ETHEREUMSEPOLIA = 11155111,
-    BASESEPOLIA = 84532
+    BASESEPOLIA = 84532,
+    NILETRON = 1001
 }
-export declare const SupportedChains: readonly [NetworkEnum.ETHEREUM, NetworkEnum.POLYGON, NetworkEnum.BINANCE, NetworkEnum.OPTIMISM, NetworkEnum.ARBITRUM, NetworkEnum.AVALANCHE, NetworkEnum.GNOSIS, NetworkEnum.COINBASE, NetworkEnum.ZKSYNC, NetworkEnum.LINEA, NetworkEnum.SONIC, NetworkEnum.UNICHAIN, NetworkEnum.ETHEREUMSEPOLIA, NetworkEnum.BASESEPOLIA];
+export declare const SupportedChains: readonly [NetworkEnum.ETHEREUM, NetworkEnum.POLYGON, NetworkEnum.BINANCE, NetworkEnum.OPTIMISM, NetworkEnum.ARBITRUM, NetworkEnum.AVALANCHE, NetworkEnum.GNOSIS, NetworkEnum.COINBASE, NetworkEnum.ZKSYNC, NetworkEnum.LINEA, NetworkEnum.SONIC, NetworkEnum.UNICHAIN, NetworkEnum.ETHEREUMSEPOLIA, NetworkEnum.BASESEPOLIA, NetworkEnum.NILETRON];
 type UnsupportedChain = Exclude<NetworkEnum, TupleToUnion<typeof SupportedChains>>;
 export type SupportedChain = Exclude<NetworkEnum, UnsupportedChain>;
 export declare const isSupportedChain: (chain: unknown) => chain is SupportedChain;

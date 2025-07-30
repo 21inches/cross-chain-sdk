@@ -1,10 +1,10 @@
 import {
     Address,
-    NetworkEnum,
     AuctionDetails,
     now,
     Extension
 } from '@1inch/fusion-sdk'
+import { NetworkEnum } from '../chains'
 import {CrossChainOrder} from './cross-chain-order'
 import {CrossChainOrderInfo, EscrowParams} from './types'
 import {HashLock} from './hash-lock'

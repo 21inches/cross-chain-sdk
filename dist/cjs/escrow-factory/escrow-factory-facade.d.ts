@@ -1,4 +1,5 @@
-import { Address, Interaction, NetworkEnum } from '@1inch/fusion-sdk';
+import { Address, Interaction } from '@1inch/fusion-sdk';
+import { NetworkEnum } from '../chains';
 import { EscrowFactory } from './escrow-factory';
 import { DstImmutablesComplement, Immutables } from '../immutables';
 import { MerkleLeaf } from '../cross-chain-order/hash-lock/hash-lock';

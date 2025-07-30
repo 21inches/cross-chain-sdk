@@ -1,4 +1,5 @@
-import {Address, Interaction, NetworkEnum} from '@1inch/fusion-sdk'
+import {Address, Interaction} from '@1inch/fusion-sdk'
+import { NetworkEnum } from '../chains'
 import {EscrowFactory} from './escrow-factory'
 import {EscrowFactoryZksync} from './escrow-factory-zksync'
 import {DstImmutablesComplement, Immutables} from '../immutables'

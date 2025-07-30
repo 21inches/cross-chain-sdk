@@ -1,4 +1,4 @@
-import { Address, Interaction, MakerTraits, ZX, SettlementPostInteractionData, now } from '@1inch/fusion-sdk';
+import { Address, Interaction, MakerTraits, ZX, SettlementPostInteractionData, now, } from '@1inch/fusion-sdk';
 import assert from 'assert';
 import { InnerOrder } from './inner-order';
 import { EscrowExtension } from './escrow-extension';

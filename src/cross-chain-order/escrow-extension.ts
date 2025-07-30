@@ -5,8 +5,8 @@ import {
     Interaction,
     SettlementPostInteractionData,
     AuctionDetails,
-    NetworkEnum
 } from '@1inch/fusion-sdk'
+import { NetworkEnum } from '../chains'
 import {AbiCoder} from 'ethers'
 import {BitMask, BN, trim0x, UINT_128_MAX} from '@1inch/byte-utils'
 import assert from 'assert'

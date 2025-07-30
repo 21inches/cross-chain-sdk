@@ -1,10 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.SupportedChains = exports.Web3ProviderConnector = exports.PrivateKeyProviderConnector = exports.randBigInt = exports.now = exports.calcMakingAmount = exports.calcTakingAmount = exports.AmountMode = exports.TakerTraits = exports.LimitOrderContract = exports.AuctionCalculator = exports.Interaction = exports.SettlementPostInteractionData = exports.AuctionDetails = exports.Extension = exports.MakerTraits = exports.NetworkEnum = exports.Address = void 0;
+exports.SupportedChains = exports.NetworkEnum = exports.Web3ProviderConnector = exports.PrivateKeyProviderConnector = exports.randBigInt = exports.now = exports.calcMakingAmount = exports.calcTakingAmount = exports.AmountMode = exports.TakerTraits = exports.LimitOrderContract = exports.AuctionCalculator = exports.Interaction = exports.SettlementPostInteractionData = exports.AuctionDetails = exports.Extension = exports.MakerTraits = exports.Address = void 0;
 const tslib_1 = require("tslib");
 var fusion_sdk_1 = require("@1inch/fusion-sdk");
 Object.defineProperty(exports, "Address", { enumerable: true, get: function () { return fusion_sdk_1.Address; } });
-Object.defineProperty(exports, "NetworkEnum", { enumerable: true, get: function () { return fusion_sdk_1.NetworkEnum; } });
 Object.defineProperty(exports, "MakerTraits", { enumerable: true, get: function () { return fusion_sdk_1.MakerTraits; } });
 Object.defineProperty(exports, "Extension", { enumerable: true, get: function () { return fusion_sdk_1.Extension; } });
 Object.defineProperty(exports, "AuctionDetails", { enumerable: true, get: function () { return fusion_sdk_1.AuctionDetails; } });
@@ -23,10 +22,12 @@ Object.defineProperty(exports, "randBigInt", { enumerable: true, get: function (
 // connectors
 Object.defineProperty(exports, "PrivateKeyProviderConnector", { enumerable: true, get: function () { return fusion_sdk_1.PrivateKeyProviderConnector; } });
 Object.defineProperty(exports, "Web3ProviderConnector", { enumerable: true, get: function () { return fusion_sdk_1.Web3ProviderConnector; } });
+var chains_1 = require("./chains");
+Object.defineProperty(exports, "NetworkEnum", { enumerable: true, get: function () { return chains_1.NetworkEnum; } });
 tslib_1.__exportStar(require("./cross-chain-order"), exports);
 tslib_1.__exportStar(require("./escrow-factory"), exports);
-var chains_1 = require("./chains");
-Object.defineProperty(exports, "SupportedChains", { enumerable: true, get: function () { return chains_1.SupportedChains; } });
+var chains_2 = require("./chains");
+Object.defineProperty(exports, "SupportedChains", { enumerable: true, get: function () { return chains_2.SupportedChains; } });
 tslib_1.__exportStar(require("./immutables"), exports);
 tslib_1.__exportStar(require("./deployments"), exports);
 tslib_1.__exportStar(require("./sdk"), exports);

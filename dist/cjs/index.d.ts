@@ -1,4 +1,5 @@
-export { EIP712TypedData, LimitOrderV4Struct, Address, NetworkEnum, MakerTraits, Extension, AuctionDetails, SettlementPostInteractionData, Interaction, AuctionCalculator, LimitOrderContract, TakerTraits, AmountMode, calcTakingAmount, calcMakingAmount, now, randBigInt, PrivateKeyProviderConnector, Web3ProviderConnector, BlockchainProviderConnector, HttpProviderConnector, WsProviderConnector, PingRpcEvent, GetAllowMethodsRpcEvent } from '@1inch/fusion-sdk';
+export { EIP712TypedData, LimitOrderV4Struct, Address, MakerTraits, Extension, AuctionDetails, SettlementPostInteractionData, Interaction, AuctionCalculator, LimitOrderContract, TakerTraits, AmountMode, calcTakingAmount, calcMakingAmount, now, randBigInt, PrivateKeyProviderConnector, Web3ProviderConnector, BlockchainProviderConnector, HttpProviderConnector, WsProviderConnector, PingRpcEvent, GetAllowMethodsRpcEvent } from '@1inch/fusion-sdk';
+export { NetworkEnum } from './chains';
 export * from './cross-chain-order';
 export * from './escrow-factory';
 export { SupportedChains, SupportedChain } from './chains';

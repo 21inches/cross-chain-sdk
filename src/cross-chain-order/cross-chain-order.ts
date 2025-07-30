@@ -10,8 +10,8 @@ import {
     ZX,
     SettlementPostInteractionData,
     now,
-    NetworkEnum
 } from '@1inch/fusion-sdk'
+import { NetworkEnum } from '../chains'
 import assert from 'assert'
 import {CrossChainOrderInfo, Details, EscrowParams, Extra} from './types'
 import {InnerOrder} from './inner-order'

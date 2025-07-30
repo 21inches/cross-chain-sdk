@@ -1,4 +1,5 @@
-import { Address, AuctionCalculator, Extension, LimitOrderV4Struct, EIP712TypedData, NetworkEnum } from '@1inch/fusion-sdk';
+import { Address, AuctionCalculator, Extension, LimitOrderV4Struct, EIP712TypedData } from '@1inch/fusion-sdk';
+import { NetworkEnum } from '../chains';
 import { CrossChainOrderInfo, Details, EscrowParams, Extra } from './types';
 import { EscrowExtension } from './escrow-extension';
 import { SupportedChain } from '../chains';
