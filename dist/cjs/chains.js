@@ -22,6 +22,7 @@ var NetworkEnum;
     NetworkEnum[NetworkEnum["BASESEPOLIA"] = 84532] = "BASESEPOLIA";
     NetworkEnum[NetworkEnum["NILETRON"] = 1001] = "NILETRON";
     NetworkEnum[NetworkEnum["ETHERLINKGHOSTNET"] = 128123] = "ETHERLINKGHOSTNET";
+    NetworkEnum[NetworkEnum["MONADTESTNET"] = 10143] = "MONADTESTNET";
 })(NetworkEnum || (exports.NetworkEnum = NetworkEnum = {}));
 exports.SupportedChains = [
     NetworkEnum.ETHEREUM,
@@ -39,7 +40,8 @@ exports.SupportedChains = [
     NetworkEnum.ETHEREUMSEPOLIA,
     NetworkEnum.BASESEPOLIA,
     NetworkEnum.NILETRON,
-    NetworkEnum.ETHERLINKGHOSTNET
+    NetworkEnum.ETHERLINKGHOSTNET,
+    NetworkEnum.MONADTESTNET,
 ];
 const isSupportedChain = (chain) => exports.SupportedChains.includes(chain);
 exports.isSupportedChain = isSupportedChain;

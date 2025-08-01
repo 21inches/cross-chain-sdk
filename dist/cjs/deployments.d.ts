@@ -17,6 +17,7 @@ export declare const TRUE_ERC20: {
     84532: Address;
     1001: Address;
     128123: Address;
+    10143: Address;
 };
 export declare const ESCROW_SRC_IMPLEMENTATION: {
     1: Address;
@@ -36,6 +37,7 @@ export declare const ESCROW_SRC_IMPLEMENTATION: {
     84532: Address;
     1001: Address;
     128123: Address;
+    10143: Address;
 };
 export declare const ESCROW_DST_IMPLEMENTATION: {
     1: Address;
@@ -55,6 +57,7 @@ export declare const ESCROW_DST_IMPLEMENTATION: {
     84532: Address;
     1001: Address;
     128123: Address;
+    10143: Address;
 };
 export declare const ESCROW_FACTORY: {
     1: Address;
@@ -74,4 +77,5 @@ export declare const ESCROW_FACTORY: {
     84532: Address;
     1001: Address;
     128123: Address;
+    10143: Address;
 };

@@ -21,7 +21,8 @@ export enum NetworkEnum {
     ETHEREUMSEPOLIA = 11155111,
     BASESEPOLIA = 84532,
     NILETRON = 1001,
-    ETHERLINKGHOSTNET = 128123
+    ETHERLINKGHOSTNET = 128123,
+    MONADTESTNET = 10143,
 }
 
 export const SupportedChains = [
@@ -40,7 +41,8 @@ export const SupportedChains = [
     NetworkEnum.ETHEREUMSEPOLIA,
     NetworkEnum.BASESEPOLIA,
     NetworkEnum.NILETRON,
-    NetworkEnum.ETHERLINKGHOSTNET
+    NetworkEnum.ETHERLINKGHOSTNET,
+    NetworkEnum.MONADTESTNET,
 ] as const
 
 type UnsupportedChain = Exclude<
