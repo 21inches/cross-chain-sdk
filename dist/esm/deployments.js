@@ -47,7 +47,7 @@ export const ESCROW_SRC_IMPLEMENTATION = {
     '0xe55061a78bf30e7f38410b90a6a167d5621cc068'),
     [NetworkEnum.NILETRON]: new Address(// NILETRON
     '0x0bc4bf8569dbbcb793788db183c7dbb4d0b2f80d'),
-    [NetworkEnum.ETHERLINKGHOSTNET]: new Address('0x056e0bb2acb8848be78f1375859f30408a89c005')
+    [NetworkEnum.ETHERLINKGHOSTNET]: new Address('0x75bbc6ce428329d7e12ebe27b1ece53c5044fed2')
 };
 export const ESCROW_DST_IMPLEMENTATION = {
     [NetworkEnum.ETHEREUM]: ESCROW_DST_IMPLEMENTATION_ADDRESS,
@@ -66,7 +66,7 @@ export const ESCROW_DST_IMPLEMENTATION = {
     [NetworkEnum.ETHEREUMSEPOLIA]: new Address('0x7490329e69ab8e298a32dc59493034e4d02a5ccf'),
     [NetworkEnum.BASESEPOLIA]: new Address('0x0418b6e80a602474fbfadc3a2594413fe68496bb'),
     [NetworkEnum.NILETRON]: new Address('0xdd69f5e6be02175b3953de663729b1238ff5f03c'),
-    [NetworkEnum.ETHERLINKGHOSTNET]: new Address('0x3b31719534a6a89403b66cb5fdc06320a0dd1604')
+    [NetworkEnum.ETHERLINKGHOSTNET]: new Address('0x7535ee002a5dc393d4d3e79e203bbad4f8ff4cbc')
 };
 export const ESCROW_FACTORY = {
     [NetworkEnum.ETHEREUM]: ESCROW_FACTORY_ADDRESS,
@@ -85,6 +85,6 @@ export const ESCROW_FACTORY = {
     [NetworkEnum.ETHEREUMSEPOLIA]: new Address('0x61a32a9263c6ff568c66799a94f8fe09c1db7a66'),
     [NetworkEnum.BASESEPOLIA]: new Address('0x178ddaca4499a89e40826ec247baf608051edf9e'),
     [NetworkEnum.NILETRON]: new Address('0x4fb1926857ec058d3c6f659a376dede5bd41583f'),
-    [NetworkEnum.ETHERLINKGHOSTNET]: new Address('0xE4F87948Efd25651CA20d8b0d750d94612f3FCB7')
+    [NetworkEnum.ETHERLINKGHOSTNET]: new Address('0xFE1E09E97c8469bb549075d542Db8c42698F5890')
 };
 //# sourceMappingURL=deployments.js.map
