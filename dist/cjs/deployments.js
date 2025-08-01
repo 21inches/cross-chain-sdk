@@ -50,7 +50,7 @@ exports.ESCROW_SRC_IMPLEMENTATION = {
     '0xe55061a78bf30e7f38410b90a6a167d5621cc068'),
     [chains_1.NetworkEnum.NILETRON]: new fusion_sdk_1.Address(// NILETRON
     '0x0bc4bf8569dbbcb793788db183c7dbb4d0b2f80d'),
-    [chains_1.NetworkEnum.ETHERLINKGHOSTNET]: new fusion_sdk_1.Address('0x75bbc6ce428329d7e12ebe27b1ece53c5044fed2')
+    [chains_1.NetworkEnum.ETHERLINKGHOSTNET]: new fusion_sdk_1.Address('0xdb2c3b4de9e6943da03afaff9dacaee861eb7f39')
 };
 exports.ESCROW_DST_IMPLEMENTATION = {
     [chains_1.NetworkEnum.ETHEREUM]: ESCROW_DST_IMPLEMENTATION_ADDRESS,
@@ -69,7 +69,7 @@ exports.ESCROW_DST_IMPLEMENTATION = {
     [chains_1.NetworkEnum.ETHEREUMSEPOLIA]: new fusion_sdk_1.Address('0x7490329e69ab8e298a32dc59493034e4d02a5ccf'),
     [chains_1.NetworkEnum.BASESEPOLIA]: new fusion_sdk_1.Address('0x0418b6e80a602474fbfadc3a2594413fe68496bb'),
     [chains_1.NetworkEnum.NILETRON]: new fusion_sdk_1.Address('0xdd69f5e6be02175b3953de663729b1238ff5f03c'),
-    [chains_1.NetworkEnum.ETHERLINKGHOSTNET]: new fusion_sdk_1.Address('0x7535ee002a5dc393d4d3e79e203bbad4f8ff4cbc')
+    [chains_1.NetworkEnum.ETHERLINKGHOSTNET]: new fusion_sdk_1.Address('0xa16d7bc6b95a3ab7b2a2514cd58ddc18732aa74a')
 };
 exports.ESCROW_FACTORY = {
     [chains_1.NetworkEnum.ETHEREUM]: ESCROW_FACTORY_ADDRESS,
@@ -88,6 +88,6 @@ exports.ESCROW_FACTORY = {
     [chains_1.NetworkEnum.ETHEREUMSEPOLIA]: new fusion_sdk_1.Address('0x61a32a9263c6ff568c66799a94f8fe09c1db7a66'),
     [chains_1.NetworkEnum.BASESEPOLIA]: new fusion_sdk_1.Address('0x178ddaca4499a89e40826ec247baf608051edf9e'),
     [chains_1.NetworkEnum.NILETRON]: new fusion_sdk_1.Address('0x4fb1926857ec058d3c6f659a376dede5bd41583f'),
-    [chains_1.NetworkEnum.ETHERLINKGHOSTNET]: new fusion_sdk_1.Address('0xFE1E09E97c8469bb549075d542Db8c42698F5890')
+    [chains_1.NetworkEnum.ETHERLINKGHOSTNET]: new fusion_sdk_1.Address('0x54B6335e1daEed822d2f06Bf5D5c97b7423e319d')
 };
 //# sourceMappingURL=deployments.js.map
