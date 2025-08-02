@@ -20,7 +20,7 @@ export enum NetworkEnum {
     // Additional testnet chains
     ETHEREUMSEPOLIA = 11155111,
     BASESEPOLIA = 84532,
-    NILETRON = 1001,
+    NILETRON = 3448148188,
     ETHERLINKGHOSTNET = 128123,
     MONADTESTNET = 10143,
 }

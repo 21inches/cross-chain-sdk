@@ -50,7 +50,7 @@ exports.ESCROW_SRC_IMPLEMENTATION = {
     [chains_1.NetworkEnum.BASESEPOLIA]: new fusion_sdk_1.Address(// BASESEPOLIA
     '0xe55061a78bf30e7f38410b90a6a167d5621cc068'),
     [chains_1.NetworkEnum.NILETRON]: new fusion_sdk_1.Address(// NILETRON
-    '0x0bc4bf8569dbbcb793788db183c7dbb4d0b2f80d'),
+    '0x810deb8c21a11f0f10977378d403c995480c2b8c'),
     [chains_1.NetworkEnum.ETHERLINKGHOSTNET]: new fusion_sdk_1.Address('0xdb2c3b4de9e6943da03afaff9dacaee861eb7f39'),
     [chains_1.NetworkEnum.MONADTESTNET]: new fusion_sdk_1.Address('0xb067a3695e316f4d6f42ef047cac941a3f0298f1')
 };
@@ -70,7 +70,7 @@ exports.ESCROW_DST_IMPLEMENTATION = {
     [chains_1.NetworkEnum.UNICHAIN]: ESCROW_DST_IMPLEMENTATION_ADDRESS,
     [chains_1.NetworkEnum.ETHEREUMSEPOLIA]: new fusion_sdk_1.Address('0x7490329e69ab8e298a32dc59493034e4d02a5ccf'),
     [chains_1.NetworkEnum.BASESEPOLIA]: new fusion_sdk_1.Address('0x0418b6e80a602474fbfadc3a2594413fe68496bb'),
-    [chains_1.NetworkEnum.NILETRON]: new fusion_sdk_1.Address('0xdd69f5e6be02175b3953de663729b1238ff5f03c'),
+    [chains_1.NetworkEnum.NILETRON]: new fusion_sdk_1.Address('0x724132e32346b5199e7821025bcae3a20c5717fb'),
     [chains_1.NetworkEnum.ETHERLINKGHOSTNET]: new fusion_sdk_1.Address('0xa16d7bc6b95a3ab7b2a2514cd58ddc18732aa74a'),
     [chains_1.NetworkEnum.MONADTESTNET]: new fusion_sdk_1.Address('0x4a2d6954c17ff9be4af9b0c9a74e2d0ff4cf128d')
 };
@@ -90,7 +90,7 @@ exports.ESCROW_FACTORY = {
     [chains_1.NetworkEnum.UNICHAIN]: ESCROW_FACTORY_ADDRESS,
     [chains_1.NetworkEnum.ETHEREUMSEPOLIA]: new fusion_sdk_1.Address('0x61a32a9263c6ff568c66799a94f8fe09c1db7a66'),
     [chains_1.NetworkEnum.BASESEPOLIA]: new fusion_sdk_1.Address('0x178ddaca4499a89e40826ec247baf608051edf9e'),
-    [chains_1.NetworkEnum.NILETRON]: new fusion_sdk_1.Address('0x4fb1926857ec058d3c6f659a376dede5bd41583f'),
+    [chains_1.NetworkEnum.NILETRON]: new fusion_sdk_1.Address('0x527eb6a0f425c77722da1d92aa515f691606571b'),
     [chains_1.NetworkEnum.ETHERLINKGHOSTNET]: new fusion_sdk_1.Address('0x54B6335e1daEed822d2f06Bf5D5c97b7423e319d'),
     [chains_1.NetworkEnum.MONADTESTNET]: new fusion_sdk_1.Address('0xb84b2c6c0d554263Eab9f56DEeA8523347270A11')
 };

@@ -20,7 +20,7 @@ var NetworkEnum;
     // Additional testnet chains
     NetworkEnum[NetworkEnum["ETHEREUMSEPOLIA"] = 11155111] = "ETHEREUMSEPOLIA";
     NetworkEnum[NetworkEnum["BASESEPOLIA"] = 84532] = "BASESEPOLIA";
-    NetworkEnum[NetworkEnum["NILETRON"] = 1001] = "NILETRON";
+    NetworkEnum[NetworkEnum["NILETRON"] = 3448148188] = "NILETRON";
     NetworkEnum[NetworkEnum["ETHERLINKGHOSTNET"] = 128123] = "ETHERLINKGHOSTNET";
     NetworkEnum[NetworkEnum["MONADTESTNET"] = 10143] = "MONADTESTNET";
 })(NetworkEnum || (exports.NetworkEnum = NetworkEnum = {}));
